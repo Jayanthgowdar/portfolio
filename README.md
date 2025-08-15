@@ -1,25 +1,26 @@
-# Jayanth Gowda Portfolio
+# Personal Portfolio - Jayanth Gowda
 
-A modern, responsive portfolio website showcasing my experience as a Full Stack Developer and AI Engineer.
+My personal portfolio website showcasing my journey as a Full Stack Developer and AI Engineer.
 
-## Features
+## About This Project
 
-- **Animated Hero Section** - Eye-catching introduction with gradient animations and typing effect
-- **Interactive Timeline** - Professional experience displayed in an engaging timeline format
-- **Skills Visualization** - Categorized skills with progress bars and animations
-- **Project Showcase** - Featured projects with modal views for detailed information
-- **Contact Form** - Easy-to-use contact section with social links
-- **Fully Responsive** - Optimized for all devices and screen sizes
-- **Smooth Animations** - Powered by Framer Motion for fluid user experience
+I built this portfolio to showcase my professional experience, technical skills, and projects. It serves as a central hub for potential employers and collaborators to learn more about my work.
 
-## Technologies Used
+## Key Features
 
-- React with TypeScript
-- Framer Motion for animations
-- Lucide React for icons
-- React Typed for typing animations
-- CSS3 with custom properties
-- Responsive Grid and Flexbox layouts
+- Clean and modern design with smooth animations
+- Responsive layout that works on all devices
+- Interactive project showcases with detailed information
+- Direct download of my resume
+- Easy contact options
+
+## Tech Stack
+
+- **Frontend:** React, TypeScript
+- **Styling:** CSS3, Responsive Design
+- **Animations:** Framer Motion
+- **Deployment:** GitHub Pages
+- **Version Control:** Git & GitHub
 
 ## Getting Started
 
@@ -58,66 +59,9 @@ npm run build
 
 The build folder will contain the optimized files ready for deployment.
 
-## Deployment Options
+## Live Demo
 
-### Deploy to GitHub Pages
-
-1. Install gh-pages:
-```bash
-npm install --save-dev gh-pages
-```
-
-2. Add to package.json:
-```json
-{
-  "homepage": "https://yourusername.github.io/jayanth-portfolio",
-  "scripts": {
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d build"
-  }
-}
-```
-
-3. Deploy:
-```bash
-npm run deploy
-```
-
-### Deploy to Netlify
-
-1. Build the project:
-```bash
-npm run build
-```
-
-2. Drag and drop the `build` folder to [Netlify](https://www.netlify.com/)
-
-### Deploy to Vercel
-
-1. Install Vercel CLI:
-```bash
-npm i -g vercel
-```
-
-2. Deploy:
-```bash
-vercel
-```
-
-## Customization
-
-- Update personal information in component files
-- Modify color scheme in `App.css` CSS variables
-- Add/remove sections as needed
-- Update project data in `Projects.tsx`
-- Customize animations in component files
-
-## Performance Optimizations
-
-- Lazy loading for images
-- Code splitting for better initial load time
-- Optimized animations for smooth performance
-- Minified production build
+🌐 **[View Live Portfolio](https://jayanthgowdar.github.io/portfolio/)**
 
 ## Contact
 
@@ -126,6 +70,13 @@ Jayanth Gowda Ramanna
 - LinkedIn: [jayanth-gowda-ramanna](https://linkedin.com/in/jayanth-gowda-ramanna)
 - Phone: (269) 873-7297
 
-## License
+## Connect With Me
 
-This project is open source and available under the MIT License.
+- **LinkedIn:** [linkedin.com/in/jayanthgowdar](https://www.linkedin.com/in/jayanthgowdar/)
+- **GitHub:** [github.com/Jayanthgowdar](https://github.com/Jayanthgowdar)
+- **Email:** jayanthgowda.ramanna@wmich.edu
+- **Portfolio:** [jayanthgowdar.github.io/portfolio](https://jayanthgowdar.github.io/portfolio/)
+
+---
+
+Designed and developed by Jayanth Gowda Ramanna
