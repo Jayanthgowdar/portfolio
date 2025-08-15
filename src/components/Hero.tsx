@@ -29,7 +29,7 @@ const Hero: React.FC = () => {
           animate={{ opacity: 1, scale: 1 }}
           transition={{ delay: 0.1, type: "spring", stiffness: 100 }}
         >
-          <img src="/profile.jpg" alt="Jayanth Gowda" />
+          <img src={`${process.env.PUBLIC_URL}/profile.jpg`} alt="Jayanth Gowda" />
         </motion.div>
 
         <motion.div
@@ -108,7 +108,7 @@ const Hero: React.FC = () => {
             Get In Touch
           </motion.a>
           <motion.a 
-            href="/resume.pdf" 
+            href={`${process.env.PUBLIC_URL}/resume.pdf`}
             className="btn btn-secondary"
             download
             whileHover={{ scale: 1.05 }}
