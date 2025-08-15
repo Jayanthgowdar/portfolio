@@ -3,6 +3,7 @@ import { motion } from 'framer-motion';
 import { ReactTyped } from 'react-typed';
 import { Github, Linkedin, Mail, Download, ChevronDown } from 'lucide-react';
 import './Hero.css';
+import profileImg from './profile.jpg';
 
 const Hero: React.FC = () => {
   const roles = [
@@ -29,7 +30,7 @@ const Hero: React.FC = () => {
           animate={{ opacity: 1, scale: 1 }}
           transition={{ delay: 0.1, type: "spring", stiffness: 100 }}
         >
-          <img src={`${process.env.PUBLIC_URL}/profile.jpg`} alt="Jayanth Gowda" />
+          <img src={profileImg} alt="Jayanth Gowda" />
         </motion.div>
 
         <motion.div
@@ -108,7 +109,7 @@ const Hero: React.FC = () => {
             Get In Touch
           </motion.a>
           <motion.a 
-            href={`${process.env.PUBLIC_URL}/resume.pdf`}
+            href="./resume.pdf"
             className="btn btn-secondary"
             download
             whileHover={{ scale: 1.05 }}
